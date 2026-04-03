@@ -1,5 +1,4 @@
-
 #!/bin/bash
-# Script that sends a GET request to URL and displays body of response
-curl -sH "X-School-User-Id: 98" "$1"
+# sends request with header parameter
+curl -s -H "X-School-User-Id: 98" "$1"
 
